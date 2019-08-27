@@ -1,0 +1,23 @@
+{
+  "name": "mdx-error-repro",
+  "scripts": {
+    "build": "webpack"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bensmithett/mdx-error-repro.git",
+  "author": "Ben Smithett <git@bensmithett.net>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "mdx-loader": "^3.0.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}
